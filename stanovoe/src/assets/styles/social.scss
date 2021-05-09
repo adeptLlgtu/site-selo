@@ -1,0 +1,27 @@
+@import "vars";
+
+.res{
+  img{
+    width: 20rem;
+  }
+  .part-title{
+    border: 0 !important;
+    padding-bottom: 0.5rem !important;
+    margin-bottom: 0 !important;
+  }
+  .part-subtitle{
+
+    width: 100%;
+    padding-bottom: 0.5rem;
+
+  }
+  .main-text{
+    font-weight: bold !important;
+  }
+}
+
+.last-sub{
+  border-bottom: calc-px(1px) solid #999999 !important;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1rem;
+}

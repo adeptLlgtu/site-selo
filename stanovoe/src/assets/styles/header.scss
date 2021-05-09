@@ -1,0 +1,48 @@
+@import "vars";
+
+.header{
+  height: calc-px(90px);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  .const{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    align-items: center;
+    justify-content: space-between;
+    a{
+      display: flex;
+      flex-direction: row;
+      height: 100%;
+      align-items: center;
+      #site-title{
+        margin-left: calc-px(22px);
+        &__top{
+          font-weight: bold;
+          font-size: calc-px(22px);
+          line-height: calc-px(27px);
+          color: #000000;
+        }
+        &__sub{
+          font-weight: normal;
+          font-size: calc-px(12px);
+          line-height: calc-px(15px);
+          color: #000000;
+        }
+      }
+    }
+    .soc-links{
+      display: flex;
+      flex-direction: row;
+      width: 7rem;
+      justify-content: space-between;
+      a{
+        &:hover{
+          transform: scale(1.1);
+        }
+      }
+    }
+  }
+}
